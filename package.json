@@ -1,0 +1,17 @@
+{
+  "name": "js-template-string-view-engine",
+  "version": "1.0.0",
+  "description": "JS template string view engine",
+  "main": "engine.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests.js"
+  },
+  "keywords": [
+    "view",
+    "engine",
+    "templates"
+  ],
+  "author": "BrianDouglasIE",
+  "license": "Apache-2.0"
+}
