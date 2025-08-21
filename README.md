@@ -13,7 +13,7 @@ A lightweight, flexible template engine for Node.js, offering dynamic registrati
 ## Installation
 
 ```bash
-npm install @BrianDouglasIE/literal-templates
+npm install @briandouglasie/literal-templates
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ import {
   view,
   registerHelper,
   create
-} from '@BrianDouglasIE/literal-templates'
+} from '@briandouglasie/literal-templates'
 
 // Register a helper
 registerHelper('upper', str => str.toUpperCase())
@@ -43,7 +43,7 @@ console.log(view('greeting', { name: 'World' })) // Output: Hello World!
 You can bulk-register all `.html` files in a directory as views or includes:
 
 ```js
-import { registerViewDir, registerIncludeDir } from '@BrianDouglasIE/literal-templates'
+import { registerViewDir, registerIncludeDir } from '@briandouglasie/literal-templates'
 
 await registerViewDir('./views')    // Registers all .html files as views
 await registerIncludeDir('./includes') // Registers all .html files as includes
