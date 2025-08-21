@@ -1,12 +1,14 @@
 {
-  "name": "js-template-string-view-engine",
+  "name": "@briandouglasie/literal-templates",
   "version": "1.0.0",
   "description": "JS template string view engine",
   "main": "engine.js",
   "type": "module",
+  "private": false,
   "scripts": {
     "test": "node --test tests.js"
   },
+  "repository": "https://github.com/BrianDouglasIE/literal-templates",
   "keywords": [
     "view",
     "engine",
